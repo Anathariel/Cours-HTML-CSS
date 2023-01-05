@@ -1,0 +1,21 @@
+/* Commentaire CSS c'est comme ça 
+Et cela prends plusieurs lignes*/
+
+    body {
+    background-color: orchid;
+    opacity: 50%;
+    }
+
+    p {
+    color: blueviolet;
+    font-size: 15px;
+    }
+
+    /*Applique une couleur de fond jaune à tout élément a suivant directement un élément p*/
+    p + a {
+    background-color: lavender;
+    }
+    /*Applique une couleur de fond jaune à tout élément a suivant un élément p et de même niveau*/
+    p ~ a{
+    background-color: yellow;
+    }
